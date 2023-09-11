@@ -17,12 +17,23 @@ footer{
     text-align: center;
 }
 
+.rumus{
+    font-size: 20px;
+    text-align: center;
+}
+
+.legend{
+    font-size: 20px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
 label{
     display: block;
     margin-bottom: 5px;
-    font-size: 12px;
+    font-size: 20px;
     font-weight: bold;
     color: #4F709C;
+    text-align: center;
 }
 
 inputS:focus{
@@ -39,7 +50,9 @@ input{
 .inputLuas{
     display: flex;
     flex-direction: column;
-    margin-top: 20px;
+    margin-top: 30px;
+    border-top: 1px solid black;
+    padding-top: 20px;
 }
 
 button{

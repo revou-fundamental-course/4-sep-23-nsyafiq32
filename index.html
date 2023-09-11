@@ -10,16 +10,32 @@
     <header>
         <h1>Kalkulator Hitung Persegi</h1>
     </header>
+    <section class="rumusPersegi">
+        <img src="1694443784550.jpg" style="display: block; margin: auto;">
+        <p>Rumus Pada Persegi Yaitu :</p>
+        <p class="rumus">L = s x s</p>
+        <p class="rumus">K = 4 x s</p><br>
+        <div>Dimana :</div>
+        <pre class="legend">
+            K = Keliling
+            L = Luas
+            s = Sisi
+        </pre>
+        <!-- <div>K = Keliling</div>
+        <div>L = Luas</div>
+        <div>s = Sisi</div> -->
+    </section>
     <section class="inputLuas">
         <label for="inputField">Sisi</label>
         <input type="number" id="inputField" placeholder="Input Sisi">
     </section>
     <section class="inputButton">
-        <button>Hitung</button>
-        <button>Riset</button>
+        <button onclick="luas()">Hitung</button>
+        <button onclick="keliling()">Keliling</button>
     </section>
     <footer>
         <h6>Dibuat Oleh Moch. Naufal Syafiq Untuk Submission RevoU</h6>
     </footer>
+    <script src="./js/javascript.js"></script>
 </body>
 </html>
