@@ -11,31 +11,40 @@
         <h1>Kalkulator Hitung Persegi</h1>
     </header>
     <section class="rumusPersegi">
-        <img src="1694443784550.jpg" style="display: block; margin: auto;">
-        <p>Rumus Pada Persegi Yaitu :</p>
+        <img src="persegi.jpg" style="display: block; margin: auto;">
+        <h3>Rumus Pada Persegi Yaitu :</h3>
         <p class="rumus">L = s x s</p>
         <p class="rumus">K = 4 x s</p><br>
-        <div>Dimana :</div>
+        <h3>Dimana :</h3>
         <pre class="legend">
-            K = Keliling
-            L = Luas
-            s = Sisi
+            L : Luas
+            K : Keliling
+            s : Sisi
         </pre>
         <!-- <div>K = Keliling</div>
         <div>L = Luas</div>
         <div>s = Sisi</div> -->
     </section>
-    <section class="inputLuas">
-        <label for="inputField">Sisi</label>
-        <input type="number" id="inputField" placeholder="Input Sisi">
-    </section>
-    <section class="inputButton">
-        <button onclick="luas()">Hitung</button>
-        <button onclick="keliling()">Keliling</button>
-    </section>
-    <footer>
-        <h6>Dibuat Oleh Moch. Naufal Syafiq Untuk Submission RevoU</h6>
+    <form action="">
+        <section class="inputLuas">
+            <label for="inputField">Sisi</label>
+            <input type="number" id="inputField" placeholder="Input Sisi">
+        </section>
+        <section class="inputButton">
+            <button type="button" onclick="hitung()" value="Hitung">Hitung</button>
+            <button type="reset">Reset</button>
+        </section>
+        <section class="hslHitung">
+            <p class="legend">Luas Persegi Adalah <input id="Luas" name="hasil" type="number"></p><br>
+            <p class="legend">Keliling Persegi Adalah <input id="Keliling" name="hasil" type="number"></p><br>
+        </section>
+    </form>
+    <footer class="footer">
+        <p>Copyright @ Moch. Naufal Syafiq - Submission RevoU</p>
     </footer>
+    <!-- <div class="footer">
+        Copyright @ Moch. Naufal Syafiq - Submission RevoU
+    </div> -->
     <script src="./js/javascript.js"></script>
 </body>
 </html>

@@ -1,15 +1,15 @@
-function luas(){
-    let sisi = document.getElementById("inputField").value;
+function hitung(){
+    var sisi, L, K; 
+    sisi = parseInt(document.getElementById("inputField").value);
 
-    let hasil = sisi * sisi;
+    L = sisi * sisi;
+    K = 4 * sisi;
 
-    console.log(hasil);
+    console.log(L, K);
+    document.getElementById("Luas").value = L;
+    document.getElementById("Keliling").value = K;
 }
 
-function keliling(){
-    let sisi = document.getElementById("inputField").value;
-
-    let hasil = 4 * sisi;
-
-    console.log(hasil);
+function reset(){
+    document.getElementById("inpurField").reset();
 }
