@@ -5,7 +5,7 @@ function hitung(){
     L = sisi * sisi;
     K = 4 * sisi;
 
-    console.log(L, K);
+    // console.log(L, K);
     document.getElementById("Luas").value = L;
     document.getElementById("Keliling").value = K;
 }
